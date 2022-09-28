@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Notes
+
+This project requires an API key to work properly, You can sign up for a free one at [Spoonacular.com](https://spoonacular.com/food-api). Once that is done, create a `.env.local` file in the root directory of the project and add the API key using the syntax: `REACT_APP_API_KEY="YOUR_API_KEY"`. You may change the default name if you want.
